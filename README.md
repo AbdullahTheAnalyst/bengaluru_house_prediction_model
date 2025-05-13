@@ -1,7 +1,8 @@
 ```markdown
 # 🏠 Bengaluru House Price Prediction
 
-This project uses **Machine Learning** to predict house prices in **Bengaluru, India**. A **Linear Regression** model is trained and deployed using a user-friendly **Streamlit** web app.
+This project uses **Machine Learning** to predict house prices in **Bengaluru, India**.
+A **Linear Regression** model is trained and deployed using a user-friendly **Streamlit** web app.
 
 ## 📂 Project Structure
 
