@@ -28,7 +28,7 @@ input_df.at[0, "bhk"] = bhk
 input_df = pd.DataFrame(columns=model_columns)
 input_df.loc[0] = 0 
 
-# model_columns ichida mavjud bo‘lgan ustunlar uchun qiymat kiriting
+# model_columns
 if "bath" in input_df.columns:
     input_df.at[0, "bath"] = bath
 if "total_sqft" in input_df.columns:
@@ -38,13 +38,13 @@ if "bhk" in input_df.columns:
 if location in input_df.columns:
     input_df.at[0, location] = 1
 
-# Tanlangan location uchun qiymatni 1 qilish
+# Know Location
 if location in input_df.columns:
     input_df.at[0, location] = 1
 else:
     st.warning("Tanlangan location modelda mavjud emas. Iltimos boshqa birini tanlang.")
 
-# Narxni taxmin qilish
+# Orediction Price
 if st.button("Predict"):
     prediction = model.predict(input_df)[0]
     st.success(f"Predicted House Price: ₹ {prediction:.2f} Lakh")
