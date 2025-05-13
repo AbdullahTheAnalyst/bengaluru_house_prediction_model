@@ -39,6 +39,5 @@ pip install -r requirements.txt
 # Launch Streamlit app
 streamlit run app.py
 
-!![App Screenshot](![image](https://github.com/user-attachments/assets/51afbfc6-778f-4aa5-b72a-57650fe585f0)
-)
+!![App Screenshot](![image](https://github.com/user-attachments/assets/51afbfc6-778f-4aa5-b72a-57650fe585f0))
 
